@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className="w-screen flex flex-col items-center">
       <Header />
-      
+      <Footer />
     </div>
   )
 }
