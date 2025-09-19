@@ -80,27 +80,37 @@ const Header = () => {
             <a
               href="#beneficii"
               className="h-14 flex justify-center items-center hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
+              onClick={() => toggleIsOpen()}
             >
               Beneficii
             </a>
             <a
               href="#companii"
               className="h-14 flex justify-center items-center hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
+              onClick={() => toggleIsOpen()}
             >
               Pentru Companii
             </a>
             <a
               href="#testimoniale"
               className="h-14 flex justify-center items-center hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
+              onClick={() => toggleIsOpen()}
             >
               Testimoniale
             </a>
             <a
               href="#faq"
               className="h-14 flex justify-center items-center hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
+              onClick={() => toggleIsOpen()}
             >
               Întrebări Frecvente
             </a>
+            <button
+              className="h-14 w-full bg-[var(--blue)] border-2 border-[var(--blue)] text-white font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--title-color)] hover:border-[var(--title-color)] hover:text-white hover:cursor-pointer transition-colors duration-300"
+              onClick={() => toggleIsOpen()}
+            >
+              <a href="#contact">Contactează-ne</a>
+            </button>
           </nav>
         </div>
       </header>

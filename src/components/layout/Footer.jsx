@@ -22,24 +22,28 @@ const Footer = () => {
           <a
             href="#beneficii"
             className="hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
+            onClick={() => toggleIsOpen()}
           >
             Beneficii
           </a>
           <a
             href="#companii"
             className="hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
+            onClick={() => toggleIsOpen()}
           >
             Pentru Companii
           </a>
           <a
             href="#testimoniale"
             className="hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
+            onClick={() => toggleIsOpen()}
           >
             Testimoniale
           </a>
           <a
             href="#faq"
             className="hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
+            onClick={() => toggleIsOpen()}
           >
             Întrebări Frecvente
           </a>
