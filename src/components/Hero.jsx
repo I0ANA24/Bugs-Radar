@@ -18,8 +18,8 @@ const Hero = () => {
         </div>
         <div className="w-full lg:w-[50%] flex flex-col justify-between items-baseline sm:items-center lg:items-baseline gap-6">
           <div className="space-y-2 sm:text-center lg:text-left sm:w-[80%] lg:w-full">
-            <h1 className="font-bold text-2xl md:text-3xl lg:text-5xl xl:text-6xl">Monitorizare precisă, <br /> deratizare eficientă</h1>
-            <p className="text-sm md:text-base lg:text-xl">
+            <h1 className="font-bold text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl">Monitorizare precisă, <br /> deratizare eficientă</h1>
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl">
               Indiferent dacă ești o firmă de deratizare sau o companie care își
               gestionează intern procesul de combatere a rozătoarelor, aplicația
               noastră îți oferă toate instrumentele necesare pentru a organiza,
