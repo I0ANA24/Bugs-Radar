@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="w-full p-4 md:px-6 lg:px-10 bg-[var(--blueish-background)] border-t-2 border-[var(--border-color)]">
-      <footer className="container h-75 lg:h-34 mx-auto flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-6.5">
+    <footer className="w-full p-4 md:px-6 lg:px-10 bg-[var(--blueish-background)] border-t-2 border-[var(--border-color)]">
+      <div className="container h-75 lg:h-34 mx-auto flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-6.5">
         {/* logo + copyright */}
         <div className="w-full lg:w-[52%] h-20 flex flex-col justify-between">
           {/* logo */}
@@ -48,8 +48,8 @@ const Footer = () => {
             Întrebări Frecvente
           </a>
         </nav>
-      </footer>
-    </div>
+      </div>
+    </footer>
   );
 };
 

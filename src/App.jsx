@@ -1,16 +1,19 @@
-import React from 'react'
-import Header from './components/layout/Header'
-import Footer from './components/layout/Footer'
+import React from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <div className="w-screen flex flex-col items-center">
       <Header />
       <Footer />
-    </div>
-  )
-}
+      <main className="w-full">
 
-export default App
+      </main>
+    </div>
+  );
+};
+
+export default App;
 
 // 1h35min
