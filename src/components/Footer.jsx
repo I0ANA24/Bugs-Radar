@@ -13,7 +13,7 @@ const Footer = () => {
             </a>
           </div>
           {/* copyright */}
-          <p className="font-light text-[14px] text-[var(--(title-color))]">
+          <p className="text-[var(--text-color)] font-light text-[14px]">
             @2025 RadarDaunatori, toate drepturile rezervate.
           </p>
         </div>
