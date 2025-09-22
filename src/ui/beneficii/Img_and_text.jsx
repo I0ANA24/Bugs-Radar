@@ -3,7 +3,7 @@ import React from "react";
 const Img_and_text = ({ Img, parity, object }) => {
   return (
     <div
-      className={`w-full flex flex-col justify-center items-center gap-4 lg:gap-14 ${
+      className={`w-[100%] sm:w-[85%] md:w-[75%] lg:w-[90%] flex flex-col justify-center items-center gap-6 lg:gap-14 ${
         parity === "odd" ? "lg:flex-row" : "lg:flex-row-reverse"
       }`}
     >
