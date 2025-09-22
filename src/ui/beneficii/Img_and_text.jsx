@@ -1,19 +1,3 @@
-// import React from "react";
-// import Img1 from "./Img1";
-
-// const Img_and_text = ({ Img, parity, children }) => {
-//   return (
-//     <div className={`w-full flex flex-col justify-center items-center gap-4 lg:gap-8 ${parity === "odd" ? "lg:flex-row" : "lg:flex-row-reverse"}`}>
-//       <Img />
-//       <div className="w-full lg:w-[50%]">
-//         {children}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Img_and_text;
-
 import React from "react";
 
 const Img_and_text = ({ Img, parity, object }) => {

@@ -1,9 +1,9 @@
 import React from "react";
-import Img_and_text from "../ui/Img_and_text";
-import Img1 from "../ui/Img1";
-import Img2 from "../ui/Img2";
-import Img3 from "../ui/Img3";
-import Img4 from "../ui/Img4";
+import Img_and_text from "../ui/beneficii/Img_and_text";
+import Img1 from "../ui/beneficii/Img1";
+import Img2 from "../ui/beneficii/Img2";
+import Img3 from "../ui/beneficii/Img3";
+import Img4 from "../ui/beneficii/Img4";
 
 const Beneficii = () => {
   const text = {
