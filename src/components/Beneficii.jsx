@@ -53,8 +53,8 @@ const Beneficii = () => {
   };
 
   return (
-    <section id="beneficii" className="w-full px-4 md:px-6 lg:px-10 mb-20 md:mb-28 lg:mb-37.5">
-      <div className="container p-4 flex flex-col justify-center items-center gap-14 mx-auto">
+    <section id="beneficii" className="w-full px-4 md:px-6 xl:px-[12.5%] mb-20 md:mb-28 lg:mb-37.5">
+      <div className="container p-4 xl:py-4 flex flex-col justify-center items-center gap-14 mx-auto">
         {/* intro text */}
         <div className="w-full flex flex-col gap-2 md:gap-4 justify-center items-center">
           <h1 className="text-2xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-center lg:hidden">
