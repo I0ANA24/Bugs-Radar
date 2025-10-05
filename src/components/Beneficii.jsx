@@ -57,12 +57,12 @@ const Beneficii = () => {
       <div className="container p-4 xl:py-4 flex flex-col justify-center items-center gap-14 mx-auto">
         {/* intro text */}
         <div className="w-full flex flex-col gap-2 md:gap-4 justify-center items-center">
-          <h1 className="text-2xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-center lg:hidden">
+          <h3 className="w-[100vw] text-center text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold md:mb-3 lg:mb-5 lg:hidden">
             Optimizează și gestionează <br /> deratizarea cu precizie
-          </h1>
-          <h1 className="text-[var(--title-color)] hidden lg:text-4xl xl:text-5xl font-bold text-center lg:block">
+          </h3>
+          <h3 className="hidden lg:block w-[100vw] text-center text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold md:mb-3 lg:mb-5">
             Optimizează și gestionează deratizarea cu precizie
-          </h1>
+          </h3>
           <p className="text-[var(--text-color)] text-sm sm:text-base md:text-lg lg:text-xl text-center w-full max-w-250">
             Deratizarea nu implică doar plasarea capcanelor, ci și monitorizarea
             lor constantă, alimentarea și mentenanța acestora. Fără un sistem

@@ -1,6 +1,7 @@
 import React from "react";
 import HorizontalSection from "../ui/pentru companii/HorizontalSection";
 import PlantSection from "../ui/pentru companii/PlantSection";
+import SolutionsSection from "../ui/pentru companii/SolutionsSection";
 
 const PentruCompanii = () => {
   const hs_text = {
@@ -22,6 +23,7 @@ const PentruCompanii = () => {
     <section id="companii" className="w-full mb-20 md:mb-28 lg:mb-37.5">
       <HorizontalSection object={hs_text.section1} parity="odd" />
       <PlantSection />
+      <SolutionsSection />
       <HorizontalSection object={hs_text.section2} parity="even" />
     </section>
   );
