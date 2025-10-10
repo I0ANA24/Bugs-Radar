@@ -29,7 +29,7 @@ const Header = () => {
             }`}
             onClick={() => toggleIsOpen()}
           >
-            <img src={isOpen ? "/white_menu.svg" : "/menu.svg"} alt="menu" />
+            <img src={isOpen ? "white_menu.svg" : "menu.svg"} alt="menu" />
           </div>
           {/* desktop nav */}
           <div className="hidden lg:block">
