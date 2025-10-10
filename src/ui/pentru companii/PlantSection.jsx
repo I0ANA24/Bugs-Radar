@@ -4,7 +4,7 @@ const PlantSection = () => {
   return (
     <div className="w-full h-fit relative flex flex-col justify-center items-center mb-10 md:mb-14 lg:mb-19">
       <img
-        src="/pentru_companii/bg-planteaza.png"
+        src="pentru_companii/bg-planteaza.png"
         alt="background-image"
         className="w-screen h-full max-h-[70vh] md:max-h-[80vh] xl:max-h-full absolute top-0 left-0 -z-10"
       />
@@ -16,7 +16,7 @@ const PlantSection = () => {
             Plantează-ți capcanele strategic
           </h3>
           <div className="w-full">
-            <img src="/pentru_companii/maps.svg" alt="iPad image" />
+            <img src="pentru_companii/maps.svg" alt="iPad image" />
           </div>
           <div className="w-[calc(100%-40px)] xl:w-[65%] p-4 border-1 border-[var(--border-color)] rounded-lg bg-white xl:absolute xl:top-[30%] xl:right-[85%] mb-2 shadow-sm xl:shadow-lg">
             <p className="font-medium text-base md:text-lg xl:text-sm">

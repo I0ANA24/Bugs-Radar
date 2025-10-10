@@ -5,7 +5,7 @@ const Img2 = () => {
     <div className="w-full lg:w-[50%] aspect-[1.4/1] relative border-1 border-[var(--border-color)] rounded-[16px] bg-[var(--blueish-background)] pb-[4%] pr-[4%]">
       {/* background image */}
       <img
-        src="/beneficii/card-bg.png"
+        src="beneficii/card-bg.png"
         alt="background"
         className="w-full h-full overflow-hidden"
       />
@@ -13,7 +13,7 @@ const Img2 = () => {
       {/* card 1 */}
       <div className="absolute w-[40%] left-[10%] top-[21%]">
         <img
-          src="/beneficii/img2/Cantitate.svg"
+          src="beneficii/img2/Cantitate.svg"
           alt=""
           className="w-full"
         />
@@ -22,7 +22,7 @@ const Img2 = () => {
       {/* card 2 */}
       <div className="absolute w-[31.2%] left-[66.8%] top-[34.6%]">
         <img
-          src="/beneficii/img2/Distribuire.svg"
+          src="beneficii/img2/Distribuire.svg"
           alt=""
           className="w-full"
         />
@@ -31,7 +31,7 @@ const Img2 = () => {
       {/* card 3 */}
       <div className="absolute w-[39.5%] left-[8.75%] top-[74%]">
         <img
-          src="/beneficii/img2/Capcane.svg"
+          src="beneficii/img2/Capcane.svg"
           alt=""
           className="w-full"
         />

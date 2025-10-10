@@ -16,7 +16,7 @@ const Solution = ({ obj }) => {
             <li key={index} className="">
               <span>
                 <img
-                  src="/pentru_companii/check.svg"
+                  src="pentru_companii/check.svg"
                   alt="bullet"
                   className="inline-block mr-2 lg:mr-3"
                 />

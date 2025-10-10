@@ -9,7 +9,7 @@ const Footer = () => {
           {/* logo */}
           <div className="w-35">
             <a href="">
-              <img src="/logo.svg" alt="logo" className="w-[140px]" />
+              <img src="logo.svg" alt="logo" className="w-[140px]" />
             </a>
           </div>
           {/* copyright */}

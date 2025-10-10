@@ -16,7 +16,7 @@ const Header = () => {
           <div className="xl:w-80">
             <div className="w-25">
               <a href="">
-                <img src="/logo.svg" alt="logo" />
+                <img src="logo.svg" alt="logo" />
               </a>
             </div>
           </div>
