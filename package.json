@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/I0ANA24/Bugs-Radar",
+  "homepage": "https://I0ANA24.github.io/Bugs-Radar",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
