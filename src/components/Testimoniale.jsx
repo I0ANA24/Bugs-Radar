@@ -4,10 +4,9 @@ import Client from "../ui/testimoniale/Client";
 const Testimoniale = () => {
   return (
     <section
-      id="beneficii"
+      id="testimoniale"
       className="w-full px-4 md:px-6 xl:px-[12.5%] mb-20 md:mb-28 lg:mb-37.5 flex justify-center items-center"
     >
-      {/* <div className="container p-4 xl:py-4 flex flex-col justify-center items-center gap-14 mx-auto"> */}
       <div className="w-[100%] sm:w-[85%] md:w-[75%] lg:w-[90%] max-w-250 xl:w-[100%] flex flex-col justify-center items-center md:border-1 md:border-[var(--border-color)] md:rounded-2xl space-y-11">
         <div className="space-y-4 w-full m-2 md:m-10">
           <h3 className="text-center text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold">
@@ -37,7 +36,6 @@ const Testimoniale = () => {
           <span className="size-3 bg-[rgba(236,238,239,1)] rounded-full inline-block"></span>
         </div>
       </div>
-      {/* </div> */}
     </section>
   );
 };
