@@ -26,3 +26,13 @@ h1, h2, h3, h4, h5, h6 {
 p {
   color: var(--text-color);
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari și Opera */
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* Internet Explorer and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
