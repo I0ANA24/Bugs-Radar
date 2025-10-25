@@ -1,16 +1,46 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 
 const Question = ({ obj, last }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div
-      className={`w-full px-6 ${last === "1" ? "border-none" : "border-b-1"} group`}
+      className={`w-full px-6 ${
+        last === "1" ? "border-none" : "border-b border-(--border-color)"
+      }`}
     >
-      <h4 className="infotext-lg py-4 group-hover:text-red-500">{obj.q}</h4>
-      {obj.a.map((el, index) => (
-        <div key={index} className="pb-4">
-          <p className="text-sm">{el}</p>
+      <div className="flex justify-between items-center gap-4 group hover:cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
+        <p className="text-base sm:text-lg py-4 transition-colors duration-200 group-hover:text-(--blue)!">
+          {obj.q}
+        </p>
+        <div className="relative size-4 sm:size-5 flex justify-center items-center">
+          <img
+            src={"intrebari_frecvente/plus.svg"}
+            alt="open"
+            className={`absolute top-0 left-0 size-full transition-opacity duration-500 ${
+              isOpen ? "opacity-0" : "opacity-100"
+            }`}
+          />
+          <img
+            src={"intrebari_frecvente/minus.svg"}
+            alt="close"
+            className={`absolute top-0 left-0 size-full transition-opacity duration-500 ${
+              isOpen ? "opacity-100" : "opacity-0"
+            }`}
+          />
         </div>
-      ))}
+      </div>
+      <div
+        className={`${
+          isOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
+        } transition-all duration-500 overflow-hidden`}
+      >
+        {obj.a.map((el, index) => (
+          <div key={index} className="pb-4">
+            <p className="text-sm">{el}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

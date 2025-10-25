@@ -36,3 +36,7 @@ p {
   scrollbar-width: none;  /* Firefox */
 }
 
+.question:hover {
+  color: red;
+  cursor: pointer;
+}
