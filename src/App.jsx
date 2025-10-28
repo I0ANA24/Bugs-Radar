@@ -6,6 +6,7 @@ import Beneficii from "./components/Beneficii";
 import PentruCompanii from "./components/PentruCompanii";
 import Testimoniale from "./components/Testimoniale";
 import IntrebariFrecvente from "./components/IntrebariFrecvente";
+import ContactForm from "./components/ContactForm";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <PentruCompanii />
         <Testimoniale />
         <IntrebariFrecvente />
+        <ContactForm />
       </main>
       <Footer />
     </div>

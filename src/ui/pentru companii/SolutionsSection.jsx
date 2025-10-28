@@ -41,7 +41,7 @@ const SolutionsSection = () => {
         <h3 className="text-center text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold md:mb-3 lg:mb-5">
           Alege soluția potrivită nevoilor tale
         </h3>
-        <p className="text-[var(--text-color)] text-sm sm:text-base md:text-lg lg:text-xl text-center w-full max-w-250 -mt-0">
+        <p className="text-(--text-color) text-sm md:text-base text-center w-full max-w-250 mt-0">
           Funcționalități complete pentru firme de deratizare și departamente
           interne.
         </p>

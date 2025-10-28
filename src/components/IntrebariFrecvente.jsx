@@ -64,7 +64,7 @@ const IntrebariFrecvente = () => {
           <Question obj={questions.question2} />
           <Question obj={questions.question3} />
           <Question obj={questions.question4} />
-          <Question obj={questions.question5} />
+          <Question obj={questions.question5} last="1" />
         </div>
       </div>
     </section>

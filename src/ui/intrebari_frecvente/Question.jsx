@@ -9,22 +9,22 @@ const Question = ({ obj, last }) => {
         last === "1" ? "border-none" : "border-b border-(--border-color)"
       }`}
     >
-      <div className="flex justify-between items-center gap-4 group hover:cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
-        <p className="text-base sm:text-lg py-4 transition-colors duration-200 group-hover:text-(--blue)!">
+      <div className="w-full flex justify-between items-center gap-4 group hover:cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
+        <p className="w-full text-base sm:text-lg py-4 transition-colors duration-200 group-hover:text-(--blue)!">
           {obj.q}
         </p>
         <div className="relative size-4 sm:size-5 flex justify-center items-center">
           <img
             src={"intrebari_frecvente/plus.svg"}
             alt="open"
-            className={`absolute top-0 left-0 size-full transition-opacity duration-500 ${
+            className={`absolute top-0 left-0 size-4! sm:size-5 transition-opacity duration-500 ${
               isOpen ? "opacity-0" : "opacity-100"
             }`}
           />
           <img
             src={"intrebari_frecvente/minus.svg"}
             alt="close"
-            className={`absolute top-0 left-0 size-full transition-opacity duration-500 ${
+            className={`absolute top-0 left-0 size-4! sm:size-5 transition-opacity duration-500 ${
               isOpen ? "opacity-100" : "opacity-0"
             }`}
           />

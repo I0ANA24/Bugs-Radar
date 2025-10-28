@@ -63,7 +63,7 @@ const Beneficii = () => {
           <h3 className="hidden lg:block w-[100vw] text-center text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold md:mb-3 lg:mb-5">
             Optimizează și gestionează deratizarea cu precizie
           </h3>
-          <p className="text-[var(--text-color)] text-sm sm:text-base md:text-lg lg:text-xl text-center w-full max-w-250">
+          <p className="text-[var(--text-color)] text-sm md:text-base text-center w-full max-w-250">
             Deratizarea nu implică doar plasarea capcanelor, ci și monitorizarea
             lor constantă, alimentarea și mentenanța acestora. Fără un sistem
             organizat, adaptarea strategiei poate fi dificilă: unele zone rămân

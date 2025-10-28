@@ -89,7 +89,7 @@ const Testimoniale = () => {
           <h3 className="text-center text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold">
             Ce spun clienții?
           </h3>
-          <p className="text-[var(--text-color)] text-md sm:text-md md:text-lg lg:text-lg text-center w-full max-w-[90%] mx-auto -mt-2 sm:-mt-0">
+          <p className="text-(--text-color) text-sm md:text-base text-center w-full max-w-[90%] mx-auto -mt-2 sm:-mt-0">
             Feedback real de la profesioniști care folosesc Radar Dăunători
             zilnic pentru a monitoriza, optimiza și eficientiza deratizarea.
             Vezi cum aplicația noastră îi ajută să economisească timp, să reducă
