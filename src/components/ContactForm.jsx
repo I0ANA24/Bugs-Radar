@@ -63,7 +63,7 @@ const ContactForm = () => {
   // Altfel, afișează formularul
   return (
     <section
-      id="testimoniale"
+      id="contact"
       className="w-full px-4 md:px-6 xl:px-[12.5%] mb-20 md:mb-28 lg:mb-37.5 flex justify-center items-center"
     >
       <div className="w-full sm:w-[85%] md:w-[75%] lg:w-[90%] max-w-250 xl:w-full flex flex-col justify-center items-center space-y-11">
