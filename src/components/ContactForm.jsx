@@ -14,16 +14,53 @@ const ContactForm = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  // Funcție specială pentru a formata datele pentru Netlify
+  const encode = (data) => {
+    return Object.keys(data)
+      .map(
+        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+      )
+      .join("&");
+  };
 
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Previne reîncărcarea paginii
+
+    // Verificare simplă că toate câmpurile sunt completate
     if (!formData.name || !formData.email || !formData.message) {
+      alert("Te rog completează toate câmpurile.");
       return;
     }
 
-    setSubmitted(true);
+    // Trimite datele către Netlify în fundal
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...formData }),
+    })
+      .then(() => {
+        setSubmitted(true); // Afișează mesajul de succes
+      })
+      .catch((error) => {
+        alert("A apărut o eroare la trimiterea formularului: " + error);
+      });
   };
 
+  // Dacă formularul a fost trimis, afișează un mesaj de mulțumire
+  if (submitted) {
+    return (
+      <section id="testimoniale" className="w-full px-4 py-20 text-center">
+        <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold">
+          Mulțumim pentru mesaj!
+        </h3>
+        <p className="mt-4 text-sm md:text-base">
+          Am primit datele tale și vom reveni cu un răspuns în cel mai scurt timp.
+        </p>
+      </section>
+    );
+  }
+
+  // Altfel, afișează formularul
   return (
     <section
       id="testimoniale"
@@ -40,8 +77,20 @@ const ContactForm = () => {
             simplifică procesul de deratizare.
           </p>
           <div className="w-full max-w-140 m-auto lg:max-w-full lg:flex lg:justify-center lg:items-stretch lg:gap-4 space-y-4 lg:space-y-0">
-            <form className="w-full lg:w-[calc(60%)] p-4 sm:p-6 bg-(--blueish-background) border border-(--border-color) rounded-2xl space-y-4" name="contact" netlify >
-              {/* <input type="hidden" name="form-name" value="contact" /> */}
+            <form
+              className="w-full lg:w-[calc(60%)] p-4 sm:p-6 bg-(--blueish-background) border border-(--border-color) rounded-2xl space-y-4"
+              name="contact"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field" // O măsură anti-spam
+              onSubmit={handleSubmit}
+            >
+              {/* Aceste input-uri ascunse sunt ESENȚIALE pentru Netlify */}
+              <input type="hidden" name="form-name" value="contact" />
+              <p className="hidden">
+                <label>
+                  Don’t fill this out if you’re human: <input name="bot-field" />
+                </label>
+              </p>
 
               <div className="w-full">
                 <label htmlFor="name" className="mb-1.5 inline-block">
@@ -56,6 +105,7 @@ const ContactForm = () => {
                   onChange={handleChange}
                   className="outline-none border border-(--border-color) rounded-lg h-13 w-full bg-white p-4"
                   placeholder="John Doe"
+                  required
                 />
               </div>
               <div className="w-full">
@@ -71,6 +121,7 @@ const ContactForm = () => {
                   onChange={handleChange}
                   className="outline-none border border-(--border-color) rounded-lg h-13 w-full bg-white p-4"
                   placeholder="name@example.com"
+                  required
                 />
               </div>
               <div className="w-full">
@@ -81,11 +132,12 @@ const ContactForm = () => {
                 <textarea
                   id="message"
                   name="message"
-                  value={FormData.message}
+                  value={formData.message} // Corectat: formData, nu FormData
                   onChange={handleChange}
                   rows={4}
                   className="outline-none border border-(--border-color) rounded-lg w-full bg-white p-4 resize-none"
                   placeholder="Compania mea este..."
+                  required
                 ></textarea>
               </div>
               <button
@@ -96,13 +148,15 @@ const ContactForm = () => {
               </button>
             </form>
             <div className="w-full lg:w-[calc(40%)] bg-(--blue) p-4 sm:p-6 rounded-2xl space-y-4 flex flex-col justify-between items-center">
-              <div className="w-full">
-                <h4 className="text-white! text-xl lg:text-2xl font-semibold">
+              <div className="w-full space-y-4">
+                <h4 className="text-white! text-xl lg:text-2xl font-semibold pb-2">
                   Contactează-ne
                 </h4>
                 <div className="w-full">
                   <p className="text-neutral-300! lg:text-lg">Email</p>
-                  <p className="text-white! lg:text-lg">contact@radardaunatori.ro</p>
+                  <p className="text-white! lg:text-lg">
+                    contact@radardaunatori.ro
+                  </p>
                 </div>
                 <div className="w-full">
                   <p className="text-neutral-300! lg:text-lg">Phone</p>
@@ -111,13 +165,31 @@ const ContactForm = () => {
                 <div className="w-full">
                   <p className="text-neutral-300! lg:text-lg">Social Media</p>
                   <div className="w-full space-x-8 mt-2">
-                    <img src="contact/facebook.svg" alt="facebook_icon" className="inline-block w-4" />
-                    <img src="contact/instagram.svg" alt="instagram_icon" className="inline-block w-6" />
-                    <img src="contact/twitter.svg" alt="twitter_icon" className="inline-block w-6" />
+                    <img
+                      src="contact/facebook.svg"
+                      alt="facebook_icon"
+                      className="inline-block w-4"
+                    />
+                    <img
+                      src="contact/instagram.svg"
+                      alt="instagram_icon"
+                      className="inline-block w-6"
+                    />
+                    <img
+                      src="contact/twitter.svg"
+                      alt="twitter_icon"
+                      className="inline-block w-6"
+                    />
                   </div>
                 </div>
               </div>
-              <div className="flex justify-end items-center"><img src="contact/logo-contact.svg" alt="logo" className="w-[60%]" /></div>
+              <div className="flex justify-end items-center">
+                <img
+                  src="contact/logo-contact.svg"
+                  alt="logo"
+                  className="w-[60%]"
+                />
+              </div>
             </div>
           </div>
         </div>
