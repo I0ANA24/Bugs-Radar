@@ -27,7 +27,7 @@ const Solution = ({ obj }) => {
         </ul>
       </div>
       <button
-        className="w-full bg-transparent border-2 border-[var(--blue)] text-[var(--blue)] font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--blue)] hover:text-white hover:cursor-pointer transition-colors duration-300"
+        className="w-full bg-transparent border-2 border-[var(--blue)] text-[var(--blue)] font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--blue)] active:bg-(--blue) hover:text-white hover:cursor-pointer transition-colors duration-300"
         onClick={() => toggleIsOpen()}
       >
         <a href="#contact">Contactează-ne</a>
