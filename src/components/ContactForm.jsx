@@ -40,7 +40,9 @@ const ContactForm = () => {
             simplifică procesul de deratizare.
           </p>
           <div className="w-full max-w-140 m-auto lg:max-w-full lg:flex lg:justify-center lg:items-stretch lg:gap-4 space-y-4 lg:space-y-0">
-            <form className="w-full lg:w-[calc(60%)] p-4 sm:p-6 bg-(--blueish-background) border border-(--border-color) rounded-2xl space-y-4">
+            <form className="w-full lg:w-[calc(60%)] p-4 sm:p-6 bg-(--blueish-background) border border-(--border-color) rounded-2xl space-y-4" name="contact" method="POST" data-netlify="true" >
+              <input type="hidden" name="form-name" value="contact" />
+
               <div className="w-full">
                 <label htmlFor="name" className="mb-1.5 inline-block">
                   Nume și prenume
