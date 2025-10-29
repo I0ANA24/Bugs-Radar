@@ -1,6 +1,8 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const Question = ({ obj, last }) => {
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -16,14 +18,14 @@ const Question = ({ obj, last }) => {
         <div className="relative size-4 sm:size-5 flex justify-center items-center">
           <img
             src={"intrebari_frecvente/plus.svg"}
-            alt="open"
+            alt={t("faq_question_open_alt")}
             className={`absolute top-0 left-0 size-4! sm:size-5 transition-opacity duration-500 ${
               isOpen ? "opacity-0" : "opacity-100"
             }`}
           />
           <img
             src={"intrebari_frecvente/minus.svg"}
-            alt="close"
+            alt={t("faq_question_close_alt")}
             className={`absolute top-0 left-0 size-4! sm:size-5 transition-opacity duration-500 ${
               isOpen ? "opacity-100" : "opacity-0"
             }`}

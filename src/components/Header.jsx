@@ -1,7 +1,10 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  // Hook-ul 'useTranslation' ne oferă funcția 't'
+  const { t } = useTranslation();
 
   const toggleIsOpen = () => {
     setIsOpen(!isOpen);
@@ -16,7 +19,7 @@ const Header = () => {
           <div className="xl:w-80">
             <div className="w-25">
               <a href="">
-                <img src="logo.svg" alt="logo" />
+                <img src="logo.svg" alt={t("header_logo_alt")} />
               </a>
             </div>
           </div>
@@ -29,7 +32,7 @@ const Header = () => {
             }`}
             onClick={() => toggleIsOpen()}
           >
-            <img src={isOpen ? "white_menu.svg" : "menu.svg"} alt="menu" />
+            <img src={isOpen ? "white_menu.svg" : "menu.svg"} alt={t("header_menu_alt")} />
           </div>
           {/* desktop nav */}
           <div className="hidden lg:block">
@@ -38,35 +41,35 @@ const Header = () => {
                 href="#beneficii"
                 className="hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
               >
-                Beneficii
+                {t("header_nav_benefits")}
               </a>
               <a
                 href="#companii"
                 className="hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
               >
-                Pentru Companii
+                {t("header_nav_forCompanies")}
               </a>
               <a
                 href="#testimoniale"
                 className="hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
               >
-                Testimoniale
+                {t("header_nav_testimonials")}
               </a>
               <a
                 href="#faq"
                 className="hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
               >
-                Întrebări Frecvente
+                {t("header_nav_faq")}
               </a>
             </nav>
           </div>
           {/* desktop buttons */}
           <div className="hidden lg:flex gap-2">
             <button className="w-39 bg-transparent border-2 border-[var(--blue)] text-[var(--blue)] font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--title-color)] hover:border-[var(--title-color)] hover:text-white hover:cursor-pointer transition-colors duration-300">
-              <a href="#contact">Contactează-ne</a>
+              <a href="#contact">{t("header_cta_contact")}</a>
             </button>
             <button className="w-39 bg-[var(--blue)] border-2 border-[var(--blue)] text-white font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--title-color)] hover:border-[var(--title-color)] hover:text-white hover:cursor-pointer transition-colors duration-300">
-              <a href="#contact">Cere un Demo</a>
+              <a href="#contact">{t("header_cta_demo")}</a>
             </button>
           </div>
         </div>
@@ -82,34 +85,34 @@ const Header = () => {
               className="h-14 flex justify-center items-center hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
               onClick={() => toggleIsOpen()}
             >
-              Beneficii
+              {t("header_nav_benefits")}
             </a>
             <a
               href="#companii"
               className="h-14 flex justify-center items-center hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
               onClick={() => toggleIsOpen()}
             >
-              Pentru Companii
+              {t("header_nav_forCompanies")}
             </a>
             <a
               href="#testimoniale"
               className="h-14 flex justify-center items-center hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
               onClick={() => toggleIsOpen()}
             >
-              Testimoniale
+              {t("header_nav_testimonials")}
             </a>
             <a
               href="#faq"
               className="h-14 flex justify-center items-center hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
               onClick={() => toggleIsOpen()}
             >
-              Întrebări Frecvente
+              {t("header_nav_faq")}
             </a>
             <button
               className="h-14 w-full bg-[var(--blue)] border-2 border-[var(--blue)] text-white font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--title-color)] hover:border-[var(--title-color)] hover:text-white hover:cursor-pointer transition-colors duration-300"
               onClick={() => toggleIsOpen()}
             >
-              <a href="#contact">Contactează-ne</a>
+              <a href="#contact">{t("header_cta_contact")}</a>
             </button>
           </nav>
         </div>

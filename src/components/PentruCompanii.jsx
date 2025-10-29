@@ -1,21 +1,25 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import HorizontalSection from "../ui/pentru companii/HorizontalSection";
 import PlantSection from "../ui/pentru companii/PlantSection";
 import SolutionsSection from "../ui/pentru companii/SolutionsSection";
 
 const PentruCompanii = () => {
+  const { t } = useTranslation();
+
+  // Reconstruim dinamic obiectul 'hs_text' cu traducerile
   const hs_text = {
     section1: {
       img: "pentru_companii/phone+laptop.png",
-      title1: "Transformă deratizarea",
-      title2: "într-un proces eficient",
-      text: "Ai control total asupra capcanelor și verificărilor. Vizualizează și gestionează locațiile direct pe hartă, urmărește istoricul intervențiilor și statusul fiecărei capcane, identifică zonele cu risc ridicat pentru a interveni rapid și accesează platforma de pe web sau mobil pentru actualizări în timp real.",
+      title1: t("companies_section1_title1"),
+      title2: t("companies_section1_title2"),
+      text: t("companies_section1_text"),
     },
     section2: {
       img: "pentru_companii/desktop.svg",
-      title1: "Management digital pentru",
-      title2: "deratizare eficientă",
-      text: "Ține sub control problema rozătoarelor printr-un proces intuitiv și optimizat. Monitorizează capcanele și intervențiile în timp real, primește notificări automate pentru verificări și reumpleri, analizează date și rapoarte pentru a lua decizii informate și organizează eficient echipa, distribuind rapid sarcinile.",
+      title1: t("companies_section2_title1"),
+      title2: t("companies_section2_title2"),
+      text: t("companies_section2_text"),
     },
   };
 

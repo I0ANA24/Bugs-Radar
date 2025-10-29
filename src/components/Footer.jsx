@@ -1,6 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="w-full p-4 md:px-6 lg:px-10 bg-[var(--blueish-background)] border-t-2 border-[var(--border-color)]">
       <div className="container h-75 lg:h-34 mx-auto flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-6.5">
@@ -9,12 +12,13 @@ const Footer = () => {
           {/* logo */}
           <div className="w-35">
             <a href="">
-              <img src="logo.svg" alt="logo" className="w-[140px]" />
+              {/* Refolosim cheia de la header pentru logo */}
+              <img src="logo.svg" alt={t("header_logo_alt")} className="w-[140px]" />
             </a>
           </div>
           {/* copyright */}
           <p className="text-[var(--text-color)] font-light text-[14px]">
-            @2025 RadarDaunatori, toate drepturile rezervate.
+            {t("footer_copyright")}
           </p>
         </div>
         {/* menu */}
@@ -22,30 +26,26 @@ const Footer = () => {
           <a
             href="#beneficii"
             className="hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
-            onClick={() => toggleIsOpen()}
           >
-            Beneficii
+            {t("header_nav_benefits")}
           </a>
           <a
             href="#companii"
             className="hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
-            onClick={() => toggleIsOpen()}
           >
-            Pentru Companii
+            {t("header_nav_forCompanies")}
           </a>
           <a
             href="#testimoniale"
             className="hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
-            onClick={() => toggleIsOpen()}
           >
-            Testimoniale
+            {t("header_nav_testimonials")}
           </a>
           <a
             href="#faq"
             className="hover:text-[var(--blue)] font-medium text-[var(--title-color)]"
-            onClick={() => toggleIsOpen()}
           >
-            Întrebări Frecvente
+            {t("header_nav_faq")}
           </a>
         </nav>
       </div>

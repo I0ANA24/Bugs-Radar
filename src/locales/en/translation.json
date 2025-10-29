@@ -1,0 +1,227 @@
+{
+  "header_logo_alt": "logo",
+  "header_menu_alt": "menu",
+  "header_nav_benefits": "Benefits",
+  "header_nav_forCompanies": "For Companies",
+  "header_nav_testimonials": "Testimonials",
+  "header_nav_faq": "FAQ",
+  "header_cta_contact": "Contact Us",
+  "header_cta_demo": "Request a Demo",
+
+  "hero_image_alt": "hero image",
+  "iphone_image_alt": "iphone image",
+  "hero_title_line1": "Precise monitoring,",
+  "hero_title_line2": "efficient pest control",
+  "hero_description": "Whether you are a pest control company or a business managing your rodent control process internally, our application provides all the necessary tools to organize, monitor, and optimize your activity.",
+
+  "benefits_title_part1": "Optimize and manage",
+  "benefits_title_part2": "pest control with precision",
+  "benefits_intro_paragraph": "Pest control involves not just placing traps, but also their constant monitoring, baiting, and maintenance. Without an organized system, adapting the strategy can be difficult: some areas remain uncovered, checks are inconsistent, and the risk of infestation can grow without timely notice. Radar Dăunători eliminates these issues with a digital solution that allows you to monitor traps, optimize interventions, and have full control over pest management.",
+
+  "benefits_feature1_title": "Place traps on the map",
+  "benefits_feature1_subtitle": "Create a digital map of your location and strategically place the traps. Employees can see exactly where they need to intervene.",
+  "benefits_feature1_list": [
+    "Add and view traps directly on the map.",
+    "Filter traps by status and infestation level.",
+    "Quickly navigate between different buildings and floors for a rapid and efficient investigation of vulnerable areas.",
+    "Avoid overlapping coverage areas and optimize placement for better results."
+  ],
+
+  "benefits_feature2_title": "Monitor usage and performance",
+  "benefits_feature2_subtitle": "Keep track of baiting frequency, the amount of poison used, and who is responsible. Get detailed reports to increase efficiency and reduce the risk of infestations.",
+  "benefits_feature2_list": [
+    "Detailed report on total bait consumption per location or client.",
+    "Complete history of each trap: when it was last checked and by whom.",
+    "Record of inactive traps and those needing replacement.",
+    "Performance indicators for employees – see who completed their tasks on time."
+  ],
+
+  "benefits_feature3_title": "Web and Mobile Access",
+  "benefits_feature3_subtitle": "Managers have full control from the web platform, and employees can update trap status directly from the mobile app.",
+  "benefits_feature3_list": [
+    "QR Code scanning on each trap for quick updates.",
+    "The administrator can see in real-time what is happening in the field.",
+    "Secure access with customizable roles for managers and employees."
+  ],
+
+  "benefits_feature4_title": "Generate custom reports",
+  "benefits_feature4_subtitle": "Create monthly reports. Export what matters to you periodically directly from the application.",
+  "benefits_feature4_list": [
+    "Monthly, weekly, or custom reports by location, employee, or client.",
+    "Quick export to PDF, Excel, or CSV.",
+    "Intuitive charts and tables for easy data interpretation.",
+    "Report history to track the evolution of infestation and the effectiveness of interventions."
+  ],
+
+  "benefits_img1_bg_alt": "background image",
+  "benefits_img1_search_alt": "search bar",
+  "benefits_img1_filter_alt": "filter icon",
+  "benefits_img1_zone_alt": "zone selection",
+  "benefits_img1_infestation_label": "Only traps with high infestation level",
+  "benefits_img1_switch_alt": "toggle switch",
+  "benefits_img1_buildings_alt": "buildings selection",
+  "benefits_img1_hall_alt": "hall 1 map",
+  "benefits_img1_trap_alt": "trap details",
+
+  "benefits_img2_bg_alt": "background image",
+  "benefits_img2_quantity_alt": "bait quantity chart",
+  "benefits_img2_distribution_alt": "distribution by employee chart",
+  "benefits_img2_traps_alt": "inactive traps list",
+
+  "benefits_img3_bg_alt": "background image",
+  "benefits_img3_location_alt": "trap location card",
+  "benefits_img3_sanitize_alt": "trap sanitization card",
+  "benefits_img3_cubes_alt": "add bait cubes card",
+
+  "benefits_img4_bg_alt": "background image",
+  "benefits_img4_trap23_alt": "report for trap 23",
+  "benefits_img4_export_alt": "report export options",
+  "benefits_img4_calendar_alt": "calendar with monthly reports",
+  "benefits_img4_grade_alt": "infestation level chart",
+
+  "companies_section1_title1": "Transform pest control",
+  "companies_section1_title2": "into an efficient process",
+  "companies_section1_text": "You have full control over traps and inspections. View and manage locations directly on the map, track intervention history and the status of each trap, identify high-risk areas to intervene quickly, and access the platform from web or mobile for real-time updates.",
+
+  "companies_section2_title1": "Digital management for",
+  "companies_section2_title2": "efficient pest control",
+  "companies_section2_text": "Keep the rodent problem under control through an intuitive and optimized process. Monitor traps and interventions in real-time, receive automatic notifications for checks and refills, analyze data and reports to make informed decisions, and efficiently organize your team by quickly distributing tasks.",
+
+  "horizontal_section_image_alt": "section image",
+
+  "plant_section_bg_alt": "background image with plants",
+  "plant_section_maps_alt": "iPad image with maps",
+  "plant_section_title": "Place your traps strategically",
+  "plant_section_card1_text": "View the number of installed traps and the status of each in real-time.",
+  "plant_section_card2_text": "Quickly identify checked and unchecked traps for better control.",
+  "plant_section_card3_text": "Monitor the usage and consumption of materials.",
+  "plant_section_card4_text": "Detect high-risk infestation areas and take prompt action.",
+
+  "solutions_section_title": "Choose the right solution for your needs",
+  "solutions_section_subtitle": "Complete functionalities for pest control companies and internal departments.",
+
+  "solution1_title": "Pest Control Departments",
+  "solution1_text": "All the necessary tools for efficient internal management",
+  "solution1_list": [
+    "Unlimited users",
+    "Real-time monitoring",
+    "Trap management",
+    "Employee management",
+    "Multiple location administration",
+    "Detailed report generation",
+    "24/7 Support"
+  ],
+
+  "solution2_title": "Pest Control Companies",
+  "solution2_text": "Everything you need to efficiently manage your clients and locations",
+  "solution2_list": [
+    "Unlimited users",
+    "Real-time monitoring",
+    "Trap management",
+    "Employee management",
+    "Multiple location administration",
+    "Detailed report generation",
+    "24/7 Support",
+    "Multiple location management",
+    "Client and location management",
+    "Customizable interface"
+  ],
+
+  "solution_card_suitable_for": "Suitable for",
+  "solution_card_bullet_alt": "checkmark",
+
+  "testimonials_section_title": "What are customers saying?",
+  "testimonials_section_subtitle": "Real feedback from professionals who use Radar Dăunători daily to monitor, optimize, and streamline pest control. See how our application helps them save time, reduce infestation risks, and better manage their interventions.",
+  "testimonials_section_aria_label": "Go to testimonial {{index}}",
+  "testimonials_list": [
+    {
+      "quote": "Radar Dăunători has completely changed the way we manage traps and interventions. Now we can clearly see what needs to be done and where to act, without chaos or wasted time.",
+      "author": "Anna M.",
+      "company": "Pest Control Company Manager"
+    },
+    {
+      "quote": "The application is incredibly intuitive. In just a few days, the entire team adopted it and our efficiency increased by over 30%. I highly recommend it!",
+      "author": "Mihai P.",
+      "company": "Corporate Pest Control Officer"
+    },
+    {
+      "quote": "The technical support is exceptional. I had a question and received a response in less than an hour. It's clear there's a team of professionals behind it.",
+      "author": "Dana M.",
+      "company": "Commercial Buildings Administrator"
+    },
+    {
+      "quote": "The biggest advantage is data centralization. The automatically generated reports help us make better decisions and present our clients with clear evidence of our work.",
+      "author": "Cristian V.",
+      "company": "Chief Operating Officer"
+    },
+    {
+      "quote": "Daily route planning for technicians has become much more efficient. The application optimizes routes and saves us precious time and fuel.",
+      "author": "Andrei D.",
+      "company": "Team Coordinator"
+    }
+  ],
+
+  "faq_section_bg_alt": "background image",
+  "faq_section_title": "Frequently Asked Questions",
+  "faq_section_subtitle": "Do you have questions about our product? Here are answers to some of them.",
+
+  "faq_question1_q": "Can I use the app if I have multiple locations or clients?",
+  "faq_question1_a": [
+    "Yes! Radar Dăunători allows you to manage multiple locations and clients in one place. You can organize traps by buildings, floors, and specific areas to get a clear overview of pest control in each location."
+  ],
+
+  "faq_question2_q": "How does the QR Code scanning work?",
+  "faq_question2_a": [
+    "Each trap is labeled with a unique QR code that employees can scan directly from the mobile app. After scanning, they can update the trap's status (checked, refilled, needs replacement) in real-time."
+  ],
+
+  "faq_question3_q": "What types of companies can use Radar Dăunători?",
+  "faq_question3_a": [
+    "Radar Dăunători is ideal for:",
+    "✅ Pest control companies that manage multiple clients and locations.",
+    "✅ Large companies with their own internal pest control department.",
+    "✅ The food industry, warehouses, factories, retail, where rodent control is essential."
+  ],
+
+  "faq_question4_q": "Can I access the app on both mobile and desktop?",
+  "faq_question4_a": [
+    "Yes! Managers can use the web version to oversee activity, analyze data, and generate reports. Employees use the mobile app to update trap statuses directly from the field."
+  ],
+
+  "faq_question5_q": "How can I test the application?",
+  "faq_question5_a": [
+    "You can request a free demo where we will show you how Radar Dăunători works and how it can help you manage your pest control.",
+    "📩 Contact us for a personalized presentation!"
+  ],
+
+  "faq_question_open_alt": "open",
+  "faq_question_close_alt": "close",
+
+  "contact_section_title": "Ready to take control?",
+  "contact_section_subtitle": "Take the first step towards smart rodent trap management. Schedule a demo and discover how our application simplifies the pest control process.",
+
+  "contact_form_name_label": "Full Name",
+  "contact_form_name_placeholder": "John Doe",
+  "contact_form_email_label": "Email",
+  "contact_form_email_placeholder": "name@example.com",
+  "contact_form_message_label": "Tell us about your company",
+  "contact_form_message_placeholder": "My company is...",
+  "contact_form_submit_button": "Submit",
+
+  "contact_info_title": "Contact Us",
+  "contact_info_email_label": "Email",
+  "contact_info_phone_label": "Phone",
+  "contact_info_social_label": "Social Media",
+  "contact_info_facebook_alt": "facebook icon",
+  "contact_info_instagram_alt": "instagram icon",
+  "contact_info_twitter_alt": "twitter icon",
+  "contact_info_logo_alt": "logo",
+
+  "contact_alert_fill_fields": "Please fill in all fields.",
+  "contact_alert_submit_error": "An error occurred while submitting the form: ",
+  
+  "contact_success_title": "Thank you for your message!",
+  "contact_success_message": "We have received your details and will get back to you as soon as possible.",
+
+  "footer_copyright": "@2025 RadarDaunatori, all rights reserved."
+}

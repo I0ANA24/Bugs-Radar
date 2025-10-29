@@ -1,12 +1,15 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const HorizontalSection = ({ object, parity }) => {
+  const { t } = useTranslation();
+
   return (
     <div className={`w-full h-fit bg-[var(--blueish-background)] flex justify-between items-center gap-6 lg:gap-0 ${parity === "odd" ? "pt-12 md:pt-10 flex-col-reverse md:flex-row" : "py-12 md:py-10 flex-col md:flex-row mb-20 md:mb-28 lg:mb-37.5"}`}>
       <div className={`${parity === "odd" ? "w-[100%] sm:w-[80%] md:w-[45%] lg:w-[45%]" : "w-[80%] md:w-[35%] lg:w-[38%] -ml-[40%] md:-ml-0"}`}>
         <img
           src={object.img}
-          alt="image"
+          alt={t("horizontal_section_image_alt")}
           className={`w-full ${parity === "odd" ? "mix-blend-darken" : ""}`}
         />
       </div>

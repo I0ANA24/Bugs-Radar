@@ -1,0 +1,227 @@
+{
+  "header_logo_alt": "logo",
+  "header_menu_alt": "meniu",
+  "header_nav_benefits": "Beneficii",
+  "header_nav_forCompanies": "Pentru Companii",
+  "header_nav_testimonials": "Testimoniale",
+  "header_nav_faq": "Întrebări Frecvente",
+  "header_cta_contact": "Contactează-ne",
+  "header_cta_demo": "Cere un Demo",
+
+  "hero_image_alt": "imagine erou",
+  "iphone_image_alt": "imagine iphone",
+  "hero_title_line1": "Monitorizare precisă,",
+  "hero_title_line2": "deratizare eficientă",
+  "hero_description": "Indiferent dacă ești o firmă de deratizare sau o companie care își gestionează intern procesul de combatere a rozătoarelor, aplicația noastră îți oferă toate instrumentele necesare pentru a organiza, monitoriza și optimiza activitatea.",
+
+  "benefits_title_part1": "Optimizează și gestionează",
+  "benefits_title_part2": "deratizarea cu precizie",
+  "benefits_intro_paragraph": "Deratizarea nu implică doar plasarea capcanelor, ci și monitorizarea lor constantă, alimentarea și mentenanța acestora. Fără un sistem organizat, adaptarea strategiei poate fi dificilă: unele zone rămân neacoperite, verificarea nu este constantă, iar riscul de infestare poate crește fără să-l observi la timp. Radar Dăunători elimină aceste probleme printr-o soluție digitală care îți permite monitorizarea capcanelor, optimizarea intervențiilor și control total asupra deratizării.",
+
+  "benefits_feature1_title": "Plasează capcanele pe hartă",
+  "benefits_feature1_subtitle": "Creează o hartă digitală a locației tale și pune capcanele în mod strategic. Angajații pot vedea exact unde trebuie să intervină.",
+  "benefits_feature1_list": [
+    "Adaugă și vizualizează capcanele direct pe hartă.",
+    "Filtrează capcanele în funcție de stare și gradul de infestare.",
+    "Navighează rapid între diferite clădiri și etaje pentru o investigație rapidă și eficientă a zonelor vulnerabile.",
+    "Evită suprapunerile ariilor de acoperire și optimizează plasarea pentru rezultate mai bune."
+  ],
+
+  "benefits_feature2_title": "Monitorizează utilizarea și performanța",
+  "benefits_feature2_subtitle": "Ține evidența frecvenței alimentării, a cantității de otravă folosite și a responsabililor. Obține rapoarte detaliate pentru a crește eficiența și a reduce riscul infestațiilor.",
+  "benefits_feature2_list": [
+    "Raport detaliat despre consumul total de momeală pe locație sau pe client.",
+    "Istoric complet al fiecărei capcane: când a fost verificată ultima dată și de cine.",
+    "Evidența capcanelor inactive și a celor care necesită înlocuire.",
+    "Indicatori de performanță pentru angajați – vezi cine și-a îndeplinit sarcinile la timp."
+  ],
+
+  "benefits_feature3_title": "Acces de pe Web și Mobil",
+  "benefits_feature3_subtitle": "Managerii au control complet din platforma web, iar angajații pot actualiza statusul capcanelor direct din aplicația mobilă.",
+  "benefits_feature3_list": [
+    "Scanare QR Code pe fiecare capcană pentru actualizare rapidă.",
+    "Administratorul poate vedea în timp real ce se întâmplă pe teren.",
+    "Acces securizat cu roluri personalizabile pentru manageri și angajați."
+  ],
+
+  "benefits_feature4_title": "Generează rapoarte personalizate",
+  "benefits_feature4_subtitle": "Întocmește rapoarte lunare. Exportează ce contează pentru tine periodic direct din aplicație.",
+  "benefits_feature4_list": [
+    "Rapoarte lunare, săptămânale sau personalizate pe locație, angajat sau client.",
+    "Export rapid în PDF, Excel sau CSV.",
+    "Grafice și tabele intuitive pentru o interpretare ușoară a datelor.",
+    "Istoric al rapoartelor pentru a urmări evoluția infestării și eficiența intervențiilor."
+  ],
+
+  "benefits_img1_bg_alt": "imagine de fundal",
+  "benefits_img1_search_alt": "bară de căutare",
+  "benefits_img1_filter_alt": "pictogramă filtru",
+  "benefits_img1_zone_alt": "selecție zonă",
+  "benefits_img1_infestation_label": "Doar capcane cu grad de infestare mare",
+  "benefits_img1_switch_alt": "comutator",
+  "benefits_img1_buildings_alt": "selecție clădiri",
+  "benefits_img1_hall_alt": "hartă hală 1",
+  "benefits_img1_trap_alt": "detalii capcană",
+
+  "benefits_img2_bg_alt": "imagine de fundal",
+  "benefits_img2_quantity_alt": "grafic cantitate momeală",
+  "benefits_img2_distribution_alt": "grafic distribuire pe angajați",
+  "benefits_img2_traps_alt": "listă capcane inactive",
+
+  "benefits_img3_bg_alt": "imagine de fundal",
+  "benefits_img3_location_alt": "card localizare capcană",
+  "benefits_img3_sanitize_alt": "card igienizare capcană",
+  "benefits_img3_cubes_alt": "card adăugare cuburi momeală",
+
+  "benefits_img4_bg_alt": "imagine de fundal",
+  "benefits_img4_trap23_alt": "raport pentru capcana 23",
+  "benefits_img4_export_alt": "opțiuni de export raport",
+  "benefits_img4_calendar_alt": "calendar cu rapoarte lunare",
+  "benefits_img4_grade_alt": "grafic grad de infestare",
+
+  "companies_section1_title1": "Transformă deratizarea",
+  "companies_section1_title2": "într-un proces eficient",
+  "companies_section1_text": "Ai control total asupra capcanelor și verificărilor. Vizualizează și gestionează locațiile direct pe hartă, urmărește istoricul intervențiilor și statusul fiecărei capcane, identifică zonele cu risc ridicat pentru a interveni rapid și accesează platforma de pe web sau mobil pentru actualizări în timp real.",
+
+  "companies_section2_title1": "Management digital pentru",
+  "companies_section2_title2": "deratizare eficientă",
+  "companies_section2_text": "Ține sub control problema rozătoarelor printr-un proces intuitiv și optimizat. Monitorizează capcanele și intervențiile în timp real, primește notificări automate pentru verificări și reumpleri, analizează date și rapoarte pentru a lua decizii informate și organizează eficient echipa, distribuind rapid sarcinile.",
+
+  "horizontal_section_image_alt": "imagine secțiune",
+
+  "plant_section_bg_alt": "imagine de fundal cu plante",
+  "plant_section_maps_alt": "imagine iPad cu hărți",
+  "plant_section_title": "Plantează-ți capcanele strategic",
+  "plant_section_card1_text": "Vizualizează în timp real numărul de capcane instalate și starea fiecăreia.",
+  "plant_section_card2_text": "Identifică rapid capcanele verificate și neverificate pentru un control mai bun.",
+  "plant_section_card3_text": "Monitorizează utilizarea și consumul de materiale.",
+  "plant_section_card4_text": "Detectează zonele cu risc crescut de infestare și ia măsuri prompte.",
+
+  "solutions_section_title": "Alege soluția potrivită nevoilor tale",
+  "solutions_section_subtitle": "Funcționalități complete pentru firme de deratizare și departamente interne.",
+
+  "solution1_title": "Departamente de Deratizare",
+  "solution1_text": "Toate instrumentele necesare pentru un management intern eficient",
+  "solution1_list": [
+    "Număr nelimitat de utilizatori",
+    "Monitorizare în timp real",
+    "Gestionarea capcanelor",
+    "Managementul angajaților",
+    "Administrarea mai multor locații",
+    "Generare rapoarte detaliate",
+    "Suport 24/7"
+  ],
+
+  "solution2_title": "Firme de Deratizare",
+  "solution2_text": "Tot ce ai nevoie pentru a gestiona eficient clienții și locațiile tale",
+  "solution2_list": [
+    "Număr nelimitat de utilizatori",
+    "Monitorizare în timp real",
+    "Gestionarea capcanelor",
+    "Managementul angajaților",
+    "Administrarea mai multor locații",
+    "Generare rapoarte detaliate",
+    "Suport 24/7",
+    "Gestionarea multiplelor locații",
+    "Managementul clienților și locațiilor",
+    "Interfață personalizabilă"
+  ],
+
+  "solution_card_suitable_for": "Potrivit pentru",
+  "solution_card_bullet_alt": "bifă",
+
+  "testimonials_section_title": "Ce spun clienții?",
+  "testimonials_section_subtitle": "Feedback real de la profesioniști care folosesc Radar Dăunători zilnic pentru a monitoriza, optimiza și eficientiza deratizarea. Vezi cum aplicația noastră îi ajută să economisească timp, să reducă riscurile de infestare și să își gestioneze mai bine intervențiile.",
+  "testimonials_section_aria_label": "Mergi la testimonialul {{index}}",
+  "testimonials_list": [
+    {
+      "quote": "Radar Dăunători ne-a schimbat complet modul în care gestionăm capcanele și intervențiile. Acum vedem clar ce trebuie făcut și unde trebuie acționat, fără haos sau pierderi de timp.",
+      "author": "Anna M.",
+      "company": "Manager firmă DDD"
+    },
+    {
+      "quote": "Aplicația este incredibil de intuitivă. În doar câteva zile, întreaga echipă a adoptat-o și eficiența noastră a crescut cu peste 30%. Recomand cu încredere!",
+      "author": "Mihai P.",
+      "company": "Responsabil deratizare în corporație"
+    },
+    {
+      "quote": "Suportul tehnic este excepțional. Am avut o nelămurire și am primit răspuns în mai puțin de o oră. Se vede că în spate este o echipă de profesioniști.",
+      "author": "Dana M.",
+      "company": "Administrator clădiri comerciale"
+    },
+    {
+      "quote": "Cel mai mare avantaj este centralizarea datelor. Rapoartele generate automat ne ajută să luăm decizii mai bune și să le prezentăm clienților dovezi clare ale muncii noastre.",
+      "author": "Cristian V.",
+      "company": "Director Operațional"
+    },
+    {
+      "quote": "Planificarea rutelor zilnice pentru tehnicieni a devenit mult mai eficientă. Aplicația optimizează traseele și ne economisește timp și combustibil prețios.",
+      "author": "Andrei D.",
+      "company": "Coordonator Echipă"
+    }
+  ],
+
+  "faq_section_bg_alt": "imagine de fundal",
+  "faq_section_title": "Întrebări frecvente",
+  "faq_section_subtitle": "Ai întrebări despre produsul nostru? Iată răspunsuri la câteva dintre ele.",
+
+  "faq_question1_q": "Pot folosi aplicația dacă am mai multe locații sau clienți?",
+  "faq_question1_a": [
+    "Da! Radar Dăunători permite gestionarea mai multor locații și clienți într-un singur loc. Poți organiza capcanele pe clădiri, etaje și zone specifice, astfel încât să ai o imagine clară asupra deratizării în fiecare locație."
+  ],
+
+  "faq_question2_q": "Cum funcționează scanarea QR Code?",
+  "faq_question2_a": [
+    "Fiecare capcană este etichetată cu un cod QR unic, pe care angajații îl pot scana direct din aplicația mobilă. După scanare, pot actualiza statusul capcanei (verificată, reumplută, necesită înlocuire) în timp real."
+  ],
+
+  "faq_question3_q": "Ce tipuri de companii pot folosi Radar Dăunători?",
+  "faq_question3_a": [
+    "Radar Dăunători este ideal pentru:",
+    "✅ Firme de deratizare, care gestionează mai mulți clienți și locații.",
+    "✅ Companii mari, cu propriul departament de deratizare intern.",
+    "✅ Industria alimentară, depozite, fabrici, retail, unde controlul rozătoarelor este esențial."
+  ],
+
+  "faq_question4_q": "Pot accesa aplicația de pe mobil și desktop?",
+  "faq_question4_a": [
+    "Da! Managerii pot folosi versiunea web pentru a supraveghea activitatea, analiza datele și genera rapoarte. Angajații folosesc aplicația mobilă pentru a actualiza statusul capcanelor direct din teren."
+  ],
+
+  "faq_question5_q": "Cum pot testa aplicația?",
+  "faq_question5_a": [
+    "Poți solicita un demo gratuit, unde îți vom arăta cum funcționează Radar Dăunători și cum te poate ajuta în gestionarea deratizării.",
+    "📩 Contactează-ne pentru o prezentare personalizată!"
+  ],
+
+  "faq_question_open_alt": "deschide",
+  "faq_question_close_alt": "închide",
+
+  "contact_section_title": "Ești gata să preiei controlul?",
+  "contact_section_subtitle": "Fă primul pas către o gestionare inteligentă a capcanelor pentru rozătoare. Programează un demo și descoperă cum aplicația noastră simplifică procesul de deratizare.",
+  
+  "contact_form_name_label": "Nume și prenume",
+  "contact_form_name_placeholder": "John Doe",
+  "contact_form_email_label": "Email",
+  "contact_form_email_placeholder": "nume@exemplu.com",
+  "contact_form_message_label": "Spune-ne despre compania ta",
+  "contact_form_message_placeholder": "Compania mea este...",
+  "contact_form_submit_button": "Trimite",
+
+  "contact_info_title": "Contactează-ne",
+  "contact_info_email_label": "Email",
+  "contact_info_phone_label": "Telefon",
+  "contact_info_social_label": "Social Media",
+  "contact_info_facebook_alt": "pictogramă facebook",
+  "contact_info_instagram_alt": "pictogramă instagram",
+  "contact_info_twitter_alt": "pictogramă twitter",
+  "contact_info_logo_alt": "logo",
+
+  "contact_alert_fill_fields": "Te rog completează toate câmpurile.",
+  "contact_alert_submit_error": "A apărut o eroare la trimiterea formularului: ",
+
+  "contact_success_title": "Mulțumim pentru mesaj!",
+  "contact_success_message": "Am primit datele tale și vom reveni cu un răspuns în cel mai scurt timp.",
+
+  "footer_copyright": "@2025 RadarDaunatori, toate drepturile rezervate."
+}

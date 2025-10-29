@@ -1,53 +1,31 @@
 import React, { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
+
+// Imaginile rămân importuri statice
 import prof1 from "../assets/profile1.png";
 import prof2 from "../assets/profile2.png";
 import prof3 from "../assets/profile3.png";
 import prof4 from "../assets/profile4.avif";
 import prof5 from "../assets/profile5.jpg";
 
-const testimonials = [
-  {
-    quote:
-      "Radar Dăunători ne-a schimbat complet modul în care gestionăm capcanele și intervențiile. Acum vedem clar ce trebuie făcut și unde trebuie acționat, fără haos sau pierderi de timp.",
-    author: "Anna M.",
-    company: "Manager firmă DDD",
-    img: prof1,
-  },
-  {
-    quote:
-      "Aplicația este incredibil de intuitivă. În doar câteva zile, întreaga echipă a adoptat-o și eficiența noastră a crescut cu peste 30%. Recomand cu încredere!",
-    author: "Mihai P.",
-    company: "Responsabil deratizare în corporație",
-    img: prof2,
-  },
-  {
-    quote:
-      "Suportul tehnic este excepțional. Am avut o nelămurire și am primit răspuns în mai puțin de o oră. Se vede că în spate este o echipă de profesioniști.",
-    author: "Dana M.",
-    company: "Administrator clădiri comerciale",
-    img: prof3,
-  },
-  {
-    quote:
-      "Cel mai mare avantaj este centralizarea datelor. Rapoartele generate automat ne ajută să luăm decizii mai bune și să le prezentăm clienților dovezi clare ale muncii noastre.",
-    author: "Cristian V.",
-    company: "Director Operațional",
-    img: prof4,
-  },
-  {
-    quote:
-      "Planificarea rutelor zilnice pentru tehnicieni a devenit mult mai eficientă. Aplicația optimizează traseele și ne economisește timp și combustibil prețios.",
-    author: "Andrei D.",
-    company: "Coordonator Echipă",
-    img: prof5,
-  },
-];
+// Un array static doar pentru imagini
+const testimonialImages = [prof1, prof2, prof3, prof4, prof5];
 
 const Testimoniale = () => {
+  const { t } = useTranslation();
   const [activeIndex, setActiveIndex] = useState(0);
   const testimonialRefs = useRef([]);
 
+  // Preluăm textele din fișierul de traducere și le combinăm cu imaginile
+  const testimonials = t("testimonials_list", { returnObjects: true }).map(
+    (testimonial, index) => ({
+      ...testimonial,
+      img: testimonialImages[index],
+    })
+  );
+
   useEffect(() => {
+    // ... logica pentru IntersectionObserver rămâne neschimbată
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -64,17 +42,14 @@ const Testimoniale = () => {
       }
     );
 
-    testimonialRefs.current.forEach((ref) => {
-      if (ref) {
-        observer.observe(ref);
-      }
+    const refs = testimonialRefs.current;
+    refs.forEach((ref) => {
+      if (ref) observer.observe(ref);
     });
 
     return () => {
-      testimonialRefs.current.forEach((ref) => {
-        if (ref) {
-          observer.unobserve(ref);
-        }
+      refs.forEach((ref) => {
+        if (ref) observer.unobserve(ref);
       });
     };
   }, []);
@@ -87,13 +62,10 @@ const Testimoniale = () => {
       <div className="w-[100%] sm:w-[85%] md:w-[75%] lg:w-[90%] max-w-250 xl:w-[100%] flex flex-col justify-center items-center md:border-1 md:border-[var(--border-color)] md:rounded-2xl space-y-11">
         <div className="space-y-4 w-full m-2 md:m-10">
           <h3 className="text-center text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold">
-            Ce spun clienții?
+            {t("testimonials_section_title")}
           </h3>
           <p className="text-(--text-color) text-sm md:text-base text-center w-full max-w-[90%] mx-auto -mt-2 sm:-mt-0">
-            Feedback real de la profesioniști care folosesc Radar Dăunători
-            zilnic pentru a monitoriza, optimiza și eficientiza deratizarea.
-            Vezi cum aplicația noastră îi ajută să economisească timp, să reducă
-            riscurile de infestare și să își gestioneze mai bine intervențiile.
+            {t("testimonials_section_subtitle")}
           </p>
           <div className="w-full mt-8 overflow-x-auto scrollbar-hide">
             <div
@@ -142,7 +114,10 @@ const Testimoniale = () => {
                   ? "bg-[rgba(175,180,184,1)]"
                   : "bg-[rgba(236,238,239,1)]"
               }`}
-              aria-label={`Go to testimonial ${index + 1}`}
+              // Interpolare pentru aria-label
+              aria-label={t("testimonials_section_aria_label", {
+                index: index + 1,
+              })}
             ></button>
           ))}
         </div>

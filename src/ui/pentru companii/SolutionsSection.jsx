@@ -1,37 +1,22 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import Solution from "./Solution";
 
 const SolutionsSection = () => {
+  const { t } = useTranslation();
+
+  // Reconstruim dinamic obiectul 'sol_text' folosind traducerile
   const sol_text = {
     sol1: {
-      title: "Departamente de Deratizare",
-      text: "Toate instrumentele necesare pentru un management intern eficient",
-      list: [
-        "Număr nelimitat de utilizatori",
-        "Monitorizare în timp real",
-        "Gestionarea capcanelor",
-        "Managementul angajaților",
-        "Administrarea mai multor locații",
-        "Generare rapoarte detaliate",
-        "Suport 24/7",
-      ]
+      title: t("solution1_title"),
+      text: t("solution1_text"),
+      list: t("solution1_list", { returnObjects: true }), // Preluăm lista ca array
     },
     sol2: {
-      title: "Firme de Deratizare",
-      text: "Tot ce ai nevoie pentru a gestiona eficient clienții și locațiile tale",
-      list: [
-        "Număr nelimitat de utilizatori",
-        "Monitorizare în timp real",
-        "Gestionarea capcanelor",
-        "Managementul angajaților",
-        "Administrarea mai multor locații",
-        "Generare rapoarte detaliate",
-        "Suport 24/7",
-        "Gestionarea multiplelor locații",
-        "Managementul clienților și locațiilor",
-        "Interfață personalizabilă",
-      ]
-    }
+      title: t("solution2_title"),
+      text: t("solution2_text"),
+      list: t("solution2_list", { returnObjects: true }), // Preluăm lista ca array
+    },
   };
 
   return (
@@ -39,11 +24,10 @@ const SolutionsSection = () => {
       {/* intro text */}
       <div className="w-full flex flex-col gap-2 justify-center items-center">
         <h3 className="text-center text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold md:mb-3 lg:mb-5">
-          Alege soluția potrivită nevoilor tale
+          {t("solutions_section_title")}
         </h3>
         <p className="text-(--text-color) text-sm md:text-base text-center w-full max-w-250 mt-0">
-          Funcționalități complete pentru firme de deratizare și departamente
-          interne.
+          {t("solutions_section_subtitle")}
         </p>
       </div>
 
