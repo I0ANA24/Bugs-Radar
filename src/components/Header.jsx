@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <header className="w-full p-4 md:px-6 lg:px-10">
-      <div className="container flex flex-col gap-2 mx-auto">
+      <div className="w-full flex flex-col gap-2 mx-auto">
         {/* top menu */}
         <div className="w-full bg-white flex justify-between items-center p-4 border-2 border-[var(--border-color)] rounded-[16px] gap-4">
           {/* logo */}

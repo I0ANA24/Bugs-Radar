@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="w-full px-4 md:px-6 lg:px-10 mb-20 md:mb-28 lg:mb-37.5">
-      <div className="container h-[80vh] p-4 flex flex-col lg:flex-row-reverse justify-center items-center gap-8 mx-auto bg-[var(--blueish-background)] border-2 border-[var(--border-color)] rounded-[16px] md:rounded-[24px] lg:rounded-[32px]">
+      <div className="w-full h-[80vh] p-4 flex flex-col lg:flex-row-reverse justify-center items-center gap-8 mx-auto bg-[var(--blueish-background)] border-2 border-[var(--border-color)] rounded-[16px] md:rounded-[24px] lg:rounded-[32px]">
         <div className="w-full h-[45%] lg:h-auto lg:w-[40%] flex justify-center items-center relative">
           <img
             src="hero.svg"
