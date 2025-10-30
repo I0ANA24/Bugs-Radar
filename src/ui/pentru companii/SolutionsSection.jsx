@@ -49,7 +49,7 @@ const SolutionsSection = () => {
 
       {/* solutions */}
       <div className="w-full flex flex-col items-center justify-stretch lg:items-stretch lg:justify-center lg:flex-row gap-4 mx-auto">
-        <Solution obj={sol_text.sol1} />
+        <Solution obj={sol_text.sol1} order="first" />
         <Solution obj={sol_text.sol2} />
       </div>
     </div>

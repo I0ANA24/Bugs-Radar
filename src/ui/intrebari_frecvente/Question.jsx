@@ -10,7 +10,7 @@ const Question = ({ obj, last }) => {
       }`}
     >
       <div className="w-full flex justify-between items-center gap-4 group hover:cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
-        <p className="w-full text-base sm:text-lg py-4 transition-colors duration-200 group-hover:text-(--blue)!">
+        <p className={`w-full text-base sm:text-lg py-4 transition-colors duration-200 group-hover:text-(--blue)! ${isOpen ? "text-(--blue)!" : ""}`}>
           {obj.q}
         </p>
         <div className="relative size-4 sm:size-5 flex justify-center items-center">

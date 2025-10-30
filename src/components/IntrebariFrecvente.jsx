@@ -41,7 +41,7 @@ const IntrebariFrecvente = () => {
 
   return (
     <section
-      id="testimoniale"
+      id="faq"
       className="w-full px-4 md:px-6 xl:px-[12.5%] mb-20 md:mb-28 lg:mb-37.5 flex justify-center items-center relative"
     >
       <img

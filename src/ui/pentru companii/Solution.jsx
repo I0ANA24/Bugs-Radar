@@ -1,6 +1,6 @@
 import React from "react";
 
-const Solution = ({ obj }) => {
+const Solution = ({ obj, order }) => {
   return (
     <div className="w-full max-w-100 p-4 rounded-lg sm:rounded-xl lg:rounded-2xl bg-[var(--blueish-background)] space-y-4 flex-1 flex flex-col justify-between">
       <div>
@@ -27,7 +27,7 @@ const Solution = ({ obj }) => {
         </ul>
       </div>
       <button
-        className="w-full bg-transparent border-2 border-[var(--blue)] text-[var(--blue)] font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--blue)] active:bg-(--blue) hover:text-white hover:cursor-pointer transition-colors duration-300"
+        className={`w-full border-2 border-(--blue) text-(--blue) font-medium px-4.5 py-2.5 rounded-sm hover:bg-(--blue) active:bg-(--blue) hover:text-white hover:cursor-pointer transition-colors duration-300 ${order !== "first" ? "bg-(--blue) text-white" : "bg-transparent"}`}
         onClick={() => toggleIsOpen()}
       >
         <a href="#contact">Contactează-ne</a>
