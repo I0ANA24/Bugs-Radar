@@ -57,7 +57,7 @@ const Beneficii = () => {
       <div className="container p-4 xl:py-4 flex flex-col justify-center items-center gap-14 mx-auto">
         {/* intro text */}
         <div className="w-full flex flex-col gap-2 md:gap-4 justify-center items-center">
-          <h3 className="w-[100vw] text-center text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold md:mb-3 lg:mb-5 lg:hidden">
+          <h3 className="w-full text-center text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold md:mb-3 lg:mb-5 lg:hidden">
             Optimizează și gestionează <br /> deratizarea cu precizie
           </h3>
           <h3 className="hidden lg:block w-[100vw] text-center text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold md:mb-3 lg:mb-5">
