@@ -13,7 +13,7 @@ const Header = () => {
         {/* top menu */}
         <div className="w-full bg-white flex justify-between items-center p-4 border-2 border-[var(--border-color)] rounded-[16px] gap-4">
           {/* logo */}
-          <div className="xl:w-80">
+          <div className="w-25">
             <div className="w-25">
               <a href="">
                 <img src="logo.svg" alt="logo" />
@@ -32,7 +32,7 @@ const Header = () => {
             <img src={isOpen ? "white_menu.svg" : "menu.svg"} alt="menu" />
           </div>
           {/* desktop nav */}
-          <div className="hidden lg:block">
+          <div className="hidden lg:block w-full">
             <nav className="w-full flex justify-center items-center gap-8 text-center">
               <a
                 href="#beneficii"
@@ -61,12 +61,12 @@ const Header = () => {
             </nav>
           </div>
           {/* desktop buttons */}
-          <div className="hidden lg:flex gap-2">
-            <button className="w-39 bg-transparent border-2 border-[var(--blue)] text-[var(--blue)] font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--title-color)] hover:border-[var(--title-color)] hover:text-white hover:cursor-pointer transition-colors duration-300">
-              <a href="#contact">Contactează-ne</a>
+          <div className="hidden lg:flex gap-2 min-w-fit lg:justify-center lg:items-center">
+            <button className="min-w-fit bg-transparent border-2 border-[var(--blue)] text-[var(--blue)] font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--title-color)] hover:border-[var(--title-color)] hover:text-white hover:cursor-pointer transition-colors duration-300">
+              <a href="#contact" className="min-w-fit">Contactează-ne</a>
             </button>
-            <button className="w-39 bg-[var(--blue)] border-2 border-[var(--blue)] text-white font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--title-color)] hover:border-[var(--title-color)] hover:text-white hover:cursor-pointer transition-colors duration-300">
-              <a href="#contact">Cere un Demo</a>
+            <button className="min-w-fit bg-[var(--blue)] border-2 border-[var(--blue)] text-white font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--title-color)] hover:border-[var(--title-color)] hover:text-white hover:cursor-pointer transition-colors duration-300">
+              <a href="#contact" className="min-w-fit">Cere un Demo</a>
             </button>
           </div>
         </div>
