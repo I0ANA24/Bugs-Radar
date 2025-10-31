@@ -50,11 +50,11 @@ const IntrebariFrecvente = () => {
         className="w-screen h-full max-h-[70vh] md:max-h-[80vh] xl:max-h-full absolute top-0 left-0 -z-10"
       />
       <div className="w-full sm:w-[85%] md:w-[75%] lg:w-[90%] max-w-180 xl:w-full flex flex-col justify-center items-center border border-(--border-color) rounded-2xl space-y-11 bg-white">
-        <div className="space-y-4 w-full m-4 md:m-8 pt-4">
-          <h3 className="text-center text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold">
+        <div className="space-y-2 w-full m-4 md:m-8 pt-4">
+          <h3 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[56px] font-bold">
             Întrebări frecvente
           </h3>
-          <p className="text-sm sm:text-base text-center w-full max-w-[90%] mx-auto -mt-2 sm:mt-0">
+          <p className="text-base md:text-lg xl:text-xl text-center w-full max-w-[90%] mx-auto -mt-2 sm:mt-0">
             Ai întrebări despre produsul nostru? Iată răspunsuri la câteva
             dintre ele.
           </p>

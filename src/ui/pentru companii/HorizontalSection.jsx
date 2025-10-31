@@ -11,8 +11,8 @@ const HorizontalSection = ({ object, parity }) => {
         />
       </div>
       <div className={`w-[100%] lg:h-full sm:w-[100%] md:w-[55%] sm:flex sm:flex-col sm:justify-center sm:items-end px-8 md:pr-8 lg:pr-[10%] md:pl-0 md:-ml-[5%] md:pb-10 space-y-4 ${parity === "odd" ? "lg:w-[55%]" : "lg:w-[55%]"}`}>
-        <h3 className="sm:w-[80%] md:w-[100vw] md:-ml-[100%] font-bold text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl text-right">{object.title1} <br /> {object.title2}</h3>
-        <p className="text-base sm:w-[80%] md:w-[100%] sm:text-lg lg:text-xl text-right">
+        <h3 className="sm:w-[80%] md:w-[100vw] md:-ml-[100%] font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[64px] text-right">{object.title1} <br /> {object.title2}</h3>
+        <p className="text-base sm:w-[80%] md:w-[100%] sm:text-lg lg:text-xl xl:text-2xl text-right">
           {object.text}
         </p>
       </div>

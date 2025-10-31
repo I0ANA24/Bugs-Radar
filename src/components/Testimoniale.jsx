@@ -86,10 +86,10 @@ const Testimoniale = () => {
     >
       <div className="w-[100%] sm:w-[85%] md:w-[75%] lg:w-[90%] max-w-250 xl:w-[100%] flex flex-col justify-center items-center md:border-1 md:border-[var(--border-color)] md:rounded-2xl space-y-11">
         <div className="space-y-4 w-full m-2 md:m-10">
-          <h3 className="text-center text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold">
+          <h3 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[56px] font-bold">
             Ce spun clienții?
           </h3>
-          <p className="text-(--text-color) text-sm md:text-base text-center w-full max-w-[90%] mx-auto -mt-2 sm:-mt-0">
+          <p className="text-(--text-color) text-sm md:text-base lg:text-lg xl:text-xl text-center w-full max-w-[90%] mx-auto -mt-2 sm:mt-0">
             Feedback real de la profesioniști care folosesc Radar Dăunători
             zilnic pentru a monitoriza, optimiza și eficientiza deratizarea.
             Vezi cum aplicația noastră îi ajută să economisească timp, să reducă
@@ -105,19 +105,19 @@ const Testimoniale = () => {
                   key={index}
                   ref={(el) => (testimonialRefs.current[index] = el)}
                   data-index={index}
-                  className={`w-[calc(100%-20px)] sm:w-1/2 lg:w-1/2 lg:h-95 p-6 space-y-11 border-1 border-[var(--border-color)] rounded-2xl bg-[var(--blueish-background)] flex-shrink-0 snap-center flex flex-col justify-center items-center ${
+                  className={`w-[calc(100%-20px)] sm:w-1/2 lg:w-1/2 lg:h-100 p-6 space-y-4 lg:space-y-11 border-1 border-[var(--border-color)] rounded-2xl bg-[var(--blueish-background)] flex-shrink-0 snap-center flex flex-col justify-center items-center ${
                     index === testimonials.length - 1 ? "mr-5" : "mr-0"
                   }`}
                 >
                   <div
-                    className="size-30 mx-auto bg-center bg-cover bg-no-repeat rounded-full"
+                    className="size-20 md:size-25 lg:size-30 mx-auto bg-center bg-cover bg-no-repeat rounded-full"
                     style={{ backgroundImage: `url(${testimonial.img})` }}
                   ></div>
-                  <div className="space-y-6">
-                    <p className="text-[var(--text-color)] text-sm sm:text-md md:text-md lg:text-md text-center">
+                  <div className="flex flex-col justify-between items-center gap-2 lg:gap-6 h-40">
+                    <p className="text-[var(--text-color)] text-base text-center">
                       {testimonial.quote}
                     </p>
-                    <p className="text-gray-600 text-center text-base">
+                    <p className="text-gray-600 text-center text-base lg:text-lg font-medium">
                       — {testimonial.author}, {testimonial.company}
                     </p>
                   </div>

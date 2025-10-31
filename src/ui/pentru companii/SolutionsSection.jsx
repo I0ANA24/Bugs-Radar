@@ -35,13 +35,13 @@ const SolutionsSection = () => {
   };
 
   return (
-    <div className="container p-4 xl:py-4 flex flex-col justify-center items-center gap-14 mx-auto mb-20 md:mb-28 lg:mb-37.5">
+    <div className="container p-4 xl:py-4 flex flex-col justify-center items-center gap-10 mx-auto mb-20 md:mb-28 lg:mb-37.5">
       {/* intro text */}
       <div className="w-full flex flex-col gap-2 justify-center items-center">
-        <h3 className="text-center text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold md:mb-3 lg:mb-5">
+        <h3 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[56px] font-bold md:mb-3 lg:mb-5">
           Alege soluția potrivită nevoilor tale
         </h3>
-        <p className="text-(--text-color) text-sm md:text-base text-center w-full max-w-250 mt-0">
+        <p className="text-(--text-color) text-base md:text-lg xl:text-xl text-center w-full max-w-250 mt-0">
           Funcționalități complete pentru firme de deratizare și departamente
           interne.
         </p>

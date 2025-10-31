@@ -62,11 +62,15 @@ const Header = () => {
           </div>
           {/* desktop buttons */}
           <div className="hidden lg:flex gap-2 min-w-fit lg:justify-center lg:items-center">
-            <button className="min-w-fit bg-transparent border-2 border-[var(--blue)] text-[var(--blue)] font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--title-color)] hover:border-[var(--title-color)] hover:text-white hover:cursor-pointer transition-colors duration-300">
-              <a href="#contact" className="min-w-fit">Contactează-ne</a>
+            <button className="min-w-fit w-40 bg-transparent border-2 border-[var(--blue)] text-[var(--blue)] font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--title-color)] hover:border-[var(--title-color)] hover:text-white hover:cursor-pointer transition-colors duration-300">
+              <a href="#contact" className="min-w-fit">
+                Contactează-ne
+              </a>
             </button>
-            <button className="min-w-fit bg-[var(--blue)] border-2 border-[var(--blue)] text-white font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--title-color)] hover:border-[var(--title-color)] hover:text-white hover:cursor-pointer transition-colors duration-300">
-              <a href="#contact" className="min-w-fit">Cere un Demo</a>
+            <button className="min-w-fit w-40 bg-[var(--blue)] border-2 border-[var(--blue)] text-white font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--title-color)] hover:border-[var(--title-color)] hover:text-white hover:cursor-pointer transition-colors duration-300">
+              <a href="#contact" className="min-w-fit">
+                Cere un Demo
+              </a>
             </button>
           </div>
         </div>

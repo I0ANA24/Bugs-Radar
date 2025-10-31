@@ -67,11 +67,11 @@ const ContactForm = () => {
       className="w-full px-4 md:px-6 xl:px-[12.5%] mb-20 md:mb-28 lg:mb-37.5 flex justify-center items-center"
     >
       <div className="w-full sm:w-[85%] md:w-[75%] lg:w-[90%] max-w-250 xl:w-full flex flex-col justify-center items-center space-y-11">
-        <div className="space-y-4 w-full m-2 md:m-10">
-          <h3 className="text-center text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold">
+        <div className="space-y-2 w-full m-2 md:m-10">
+          <h3 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[56px] font-bold">
             Ești gata să preiei controlul?
           </h3>
-          <p className="text-sm md:text-base text-center w-full max-w-[90%] mx-auto -mt-2 sm:mt-0">
+          <p className="text-base md:text-lg xl:text-xl text-center w-full max-w-[90%] mx-auto -mt-2 sm:mt-0 mb-8">
             Fă primul pas către o gestionare inteligentă a capcanelor pentru
             rozătoare. Programează un demo și descoperă cum aplicația noastră
             simplifică procesul de deratizare.
@@ -93,7 +93,7 @@ const ContactForm = () => {
               </p>
 
               <div className="w-full">
-                <label htmlFor="name" className="mb-1.5 inline-block">
+                <label htmlFor="name" className="mb-1.5 inline-block font-medium text-base">
                   Nume și prenume
                 </label>
                 <br />
@@ -109,7 +109,7 @@ const ContactForm = () => {
                 />
               </div>
               <div className="w-full">
-                <label htmlFor="email" className="mb-1.5 inline-block">
+                <label htmlFor="email" className="mb-1.5 inline-block font-medium text-base">
                   Email
                 </label>
                 <br />
@@ -125,7 +125,7 @@ const ContactForm = () => {
                 />
               </div>
               <div className="w-full">
-                <label htmlFor="message" className="mb-1.5 inline-block">
+                <label htmlFor="message" className="mb-1.5 inline-block font-medium text-base">
                   Spune-ne despre compania ta
                 </label>
                 <br />
@@ -149,21 +149,21 @@ const ContactForm = () => {
             </form>
             <div className="w-full lg:w-[calc(40%)] bg-(--blue) p-4 sm:p-6 rounded-2xl space-y-4 flex flex-col justify-between items-center">
               <div className="w-full space-y-4">
-                <h4 className="text-white! text-xl lg:text-2xl font-semibold pb-2">
+                <h4 className="text-white! text-xl md:text-2xl xl:text-2xl 2xl:text-[32px] font-semibold">
                   Contactează-ne
                 </h4>
                 <div className="w-full">
-                  <p className="text-neutral-300! lg:text-lg">Email</p>
-                  <p className="text-white! lg:text-lg">
+                  <p className="text-neutral-300! text-base md:text-lg lg:text-xl xl:text-2xl font-medium">Email</p>
+                  <p className="text-white! text-base md:text-lg lg:text-xl xl:text-2xl font-medium">
                     contact@radardaunatori.ro
                   </p>
                 </div>
                 <div className="w-full">
-                  <p className="text-neutral-300! lg:text-lg">Phone</p>
-                  <p className="text-white! lg:text-lg">+4076 522 326</p>
+                  <p className="text-neutral-300! text-base md:text-lg lg:text-xl xl:text-2xl font-medium">Phone</p>
+                  <p className="text-white! text-base md:text-lg lg:text-xl xl:text-2xl font-medium">+4076 522 326</p>
                 </div>
                 <div className="w-full">
-                  <p className="text-neutral-300! lg:text-lg">Social Media</p>
+                  <p className="text-neutral-300! text-base md:text-lg lg:text-xl xl:text-2xl font-medium">Social Media</p>
                   <div className="w-full space-x-8 mt-2">
                     <img
                       src="contact/facebook.svg"
@@ -187,7 +187,7 @@ const ContactForm = () => {
                 <img
                   src="contact/logo-contact.svg"
                   alt="logo"
-                  className="w-[60%]"
+                  className="w-[75%]"
                 />
               </div>
             </div>

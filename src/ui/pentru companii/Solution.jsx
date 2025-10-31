@@ -5,13 +5,13 @@ const Solution = ({ obj, order }) => {
     <div className="w-full max-w-100 p-4 rounded-lg sm:rounded-xl lg:rounded-2xl bg-[var(--blueish-background)] space-y-4 flex-1 flex flex-col justify-between">
       <div>
         <div className="w-full">
-          <p className="text-base">Potrivit pentru</p>
-          <h4 className="text-xl sm:text-xl md:text-2xl lg:text-3xl font-bold">
+          <p className="font-medium text-base">Potrivit pentru</p>
+          <h4 className="text-xl md:text-2xl lg:text-3xl xl:text-[32px] font-bold">
             {obj.title}
           </h4>
-          <p className="text-base">{obj.text}</p>
+          <p className="font-medium leading-[17px] lg:leading-6 text-base">{obj.text}</p>
         </div>
-        <ul className="text-[var(--text-color)] font-semibold md:text-base space-y-3 mt-5">
+        <ul className="text-[var(--text-color)] font-semibold text-base lg:text-lg space-y-3 mt-5">
           {obj.list.map((el, index) => (
             <li key={index} className="">
               <span>
