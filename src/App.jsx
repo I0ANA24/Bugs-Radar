@@ -30,7 +30,7 @@ const App = () => {
       </main>
       <Footer />
 
-      <div className="flex space-x-0 fixed bottom-4 right-4 rounded-2xl overflow-hidden shadow-lg shadow-indigo-300">
+      <div className="flex space-x-0 fixed bottom-4 right-4 rounded-2xl overflow-hidden shadow-md shadow-indigo-300">
         <button
           onClick={() => handleLanguageChange("ro")}
           className={`px-4 py-1.5 cursor-pointer font-medium ${
