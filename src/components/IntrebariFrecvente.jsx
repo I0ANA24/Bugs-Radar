@@ -31,8 +31,7 @@ const IntrebariFrecvente = () => {
 
   return (
     <section
-      // Notă: ID-ul era 'testimoniale', probabil o eroare de copiere. L-am lăsat așa.
-      id="faq" 
+      id="faq"
       className="w-full px-4 md:px-6 xl:px-[12.5%] mb-20 md:mb-28 lg:mb-37.5 flex justify-center items-center relative"
     >
       <img
@@ -40,12 +39,12 @@ const IntrebariFrecvente = () => {
         alt={t("faq_section_bg_alt")}
         className="w-screen h-full max-h-[70vh] md:max-h-[80vh] xl:max-h-full absolute top-0 left-0 -z-10"
       />
-      <div className="w-full sm:w-[85%] md:w-[75%] lg:w-[90%] max-w-180 xl:w-full flex flex-col justify-center items-center border border-(--border-color) rounded-2xl space-y-11 bg-white">
-        <div className="space-y-4 w-full m-4 md:m-8 pt-4">
-          <h3 className="text-center text-2xl sm:text-3xl md:text-4xl xl:text-5xl font-bold">
+      <div className="w-full sm:w-[85%] md:w-[75%] lg:w-[90%] max-w-180 xl:w-full flex flex-col justify-center items-center border border-[var(--border-color)] rounded-2xl space-y-11 bg-white">
+        <div className="space-y-2 w-full m-4 md:m-8 pt-4">
+          <h3 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[56px] font-bold px-4">
             {t("faq_section_title")}
           </h3>
-          <p className="text-sm sm:text-base text-center w-full max-w-[90%] mx-auto -mt-2 sm:mt-0">
+          <p className="text-base md:text-lg xl:text-xl text-center w-full max-w-[90%] mx-auto -mt-2 sm:mt-0">
             {t("faq_section_subtitle")}
           </p>
         </div>
