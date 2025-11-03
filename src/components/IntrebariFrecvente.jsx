@@ -37,7 +37,7 @@ const IntrebariFrecvente = () => {
       <img
         src="intrebari_frecvente/bg-intrebari.png"
         alt={t("faq_section_bg_alt")}
-        className="w-screen h-full max-h-[70vh] md:max-h-[80vh] xl:max-h-full absolute top-0 left-0 -z-10"
+        className="w-full h-full max-h-[70vh] md:max-h-[80vh] xl:max-h-full absolute top-0 left-0 -z-10"
       />
       <div className="w-full sm:w-[85%] md:w-[75%] lg:w-[90%] max-w-180 xl:w-full flex flex-col justify-center items-center border border-[var(--border-color)] rounded-2xl space-y-11 bg-white">
         <div className="space-y-2 w-full m-4 md:m-8 pt-4">

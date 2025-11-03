@@ -18,7 +18,7 @@ const App = () => {
   };
 
   return (
-    <div className="w-screen flex flex-col items-center relative">
+    <div className="w-full flex flex-col items-center relative">
       <Header />
       <main className="w-full">
         <Hero />

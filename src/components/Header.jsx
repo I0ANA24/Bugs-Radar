@@ -36,7 +36,7 @@ const Header = () => {
           </div>
           {/* desktop nav */}
           <div className="hidden lg:block w-full">
-            <nav className="w-full flex justify-center items-center gap-8 text-center">
+            <nav className="w-full flex justify-center gap-8 items-center text-center">
               <a
                 href="#beneficii"
                 className="hover:text-[var(--blue)] font-medium text-[var(--title-color)] text-base lg:text-lg xl:text-xl"
@@ -65,12 +65,12 @@ const Header = () => {
           </div>
           {/* desktop buttons */}
           <div className="hidden lg:flex gap-2 min-w-fit lg:justify-center lg:items-center">
-            <button className="min-w-fit w-40 bg-transparent border-2 border-[var(--blue)] text-[var(--blue)] font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--title-color)] hover:border-[var(--title-color)] hover:text-white hover:cursor-pointer transition-colors duration-300">
+            <button className="min-w-fit w-45 bg-transparent border-2 border-[var(--blue)] text-[var(--blue)] font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--title-color)] hover:border-[var(--title-color)] hover:text-white hover:cursor-pointer transition-colors duration-300">
               <a href="#contact" className="min-w-fit text-base lg:text-lg xl:text-xl">
                 {t("header_cta_contact")}
               </a>
             </button>
-            <button className="min-w-fit w-40 bg-[var(--blue)] border-2 border-[var(--blue)] text-white font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--title-color)] hover:border-[var(--title-color)] hover:text-white hover:cursor-pointer transition-colors duration-300">
+            <button className="min-w-fit w-45 bg-[var(--blue)] border-2 border-[var(--blue)] text-white font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--title-color)] hover:border-[var(--title-color)] hover:text-white hover:cursor-pointer transition-colors duration-300">
               <a href="#contact" className="min-w-fit text-base lg:text-lg xl:text-xl">
                 {t("header_cta_demo")}
               </a>

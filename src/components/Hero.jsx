@@ -28,7 +28,7 @@ const Hero = () => {
               {t("hero_description")}
             </p>
           </div>
-          <button className="h-14 w-full sm:w-[30%] md:w-[25%] lg:w-50 bg-[var(--blue)] border-2 border-[var(--blue)] text-white font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--title-color)] hover:border-[var(--title-color)] hover:text-white hover:cursor-pointer transition-colors duration-300">
+          <button className="h-14 w-full sm:w-[30%] md:w-[25%] lg:w-50 bg-[var(--blue)] border-2 border-[var(--blue)] text-white font-medium px-4.5 py-2.5 rounded-[4px] hover:bg-[var(--title-color)] hover:border-[var(--title-color)] hover:text-white hover:cursor-pointer transition-colors duration-300 text-base lg:text-lg xl:text-xl">
             {/* Am refolosit cheia de la header pentru consistență */}
             <a href="#contact">{t("header_cta_contact")}</a>
           </button>

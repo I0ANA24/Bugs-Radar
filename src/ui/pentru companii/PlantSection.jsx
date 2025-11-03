@@ -9,7 +9,7 @@ const PlantSection = () => {
       <img
         src="pentru_companii/bg-planteaza.png"
         alt={t("plant_section_bg_alt")}
-        className="w-screen h-full max-h-[70vh] md:max-h-[80vh] xl:max-h-full absolute top-0 left-0 -z-10"
+        className="w-full h-full max-h-[70vh] md:max-h-[80vh] xl:max-h-full absolute top-0 left-0 -z-10"
       />
       <div
         className={`w-full sm:w-[85%] md:w-[75%] lg:w-[65%] xl:w-[45%] flex flex-col justify-center items-center gap-6 lg:gap-14 px-4 md:px-6 lg:px-10`}
