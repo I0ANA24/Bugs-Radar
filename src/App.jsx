@@ -11,7 +11,7 @@ import ContactForm from "./components/ContactForm";
 
 const App = () => {
   const { i18n } = useTranslation();
-  const [language, setLanguage] = useState("RO");
+  const [language, setLanguage] = useState("ro");
 
   const handleLanguageChange = (lng) => {
     i18n.changeLanguage(lng);
